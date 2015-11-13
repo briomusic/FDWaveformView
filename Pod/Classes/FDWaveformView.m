@@ -342,7 +342,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetShouldAntialias(context, NO);
     CGContextSetAlpha(context,1.0);
-    CGContextSetLineWidth(context, 1.0);
+    CGContextSetLineWidth(context, self.lineWidth);
     CGContextSetStrokeColorWithColor(context, [self.wavesColor CGColor]);
     
     float halfGraphHeight = (imageHeight / 2);

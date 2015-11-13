@@ -23,6 +23,7 @@
 @property (nonatomic) BOOL doesAllowScroll;
 @property (nonatomic, copy) UIColor *wavesColor;
 @property (nonatomic, copy) UIColor *progressColor;
+@property (nonatomic) float lineWidth;
 @end
 
 @protocol FDWaveformViewDelegate <NSObject>
